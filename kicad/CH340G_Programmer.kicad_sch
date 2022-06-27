@@ -961,7 +961,6 @@
     )
   )
 
-
   (junction (at 97.79 41.91) (diameter 0) (color 0 0 0 0)
     (uuid 264c369a-001b-4e5f-bbda-7ae357c03925)
   )
@@ -1346,7 +1345,7 @@
   (symbol (lib_id "power:+3V3") (at 223.52 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2c9e99d0-36de-47fd-8740-722bb7688943)
-    (property "Reference" "#PWR?" (id 0) (at 223.52 95.25 0)
+    (property "Reference" "#PWR0102" (id 0) (at 223.52 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 223.52 86.36 0))
@@ -1954,7 +1953,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 228.6 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f5ca6e0b-35b7-4f19-9c39-537418dfc295)
-    (property "Reference" "JP?" (id 0) (at 228.6 85.09 0))
+    (property "Reference" "JP1" (id 0) (at 228.6 85.09 0))
     (property "Value" "PWR_TGT" (id 1) (at 228.6 87.63 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 228.6 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2017,7 +2016,7 @@
       (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
     )
     (path "/2c9e99d0-36de-47fd-8740-722bb7688943"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/ede17dd5-8d66-46f5-b58f-c99270bc800c"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
@@ -2050,7 +2049,7 @@
       (reference "J2") (unit 1) (value "PROG") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
     )
     (path "/f5ca6e0b-35b7-4f19-9c39-537418dfc295"
-      (reference "JP?") (unit 1) (value "PWR_TGT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "JP1") (unit 1) (value "PWR_TGT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/290443a6-014d-4d23-88d9-9f3f579fa6c2"
       (reference "Q1") (unit 1) (value "MMBT2222A 1P") (footprint "Package_TO_SOT_SMD:SOT-23")
