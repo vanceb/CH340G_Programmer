@@ -1026,7 +1026,7 @@
       (xy 141.5 91)
       (xy 167 87)
       (xy 178.5 87)
-    ) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 6aa95855-6c09-4404-8848-d8d22a8d2ad0))
+    ) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 5033b209-aefa-4e6d-b232-68985af782c5))
   (gr_text "3V3" (at 170.416806 102.724565) (layer "B.SilkS") (tstamp 06f8968a-f0a7-4b7c-8ef1-0aafc3e3a6b4)
     (effects (font (size 2 2) (thickness 0.2)) (justify mirror))
   )
